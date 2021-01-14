@@ -1,0 +1,153 @@
+
+
+
+hgroup>div>img{
+    width: 270px;
+    height: 400px;
+}
+
+section>div>img{
+    width: 270px;
+    height: 400px;
+
+
+}
+
+
+nav>div>img{
+    width: 300px;
+    height: 400px;
+
+
+}
+
+article>div>img{
+    width: 300px;
+    height: 400px;
+
+
+}
+
+aside>div>img{
+    width: 300px;
+    height: 300px;
+
+
+}
+
+img{
+
+    padding: 10px;
+    box-shadow: 12px -8px 5px 3px rgba(180, 178, 178, 0.75);
+
+}
+
+/* .cintinur{
+
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    border: hotpink solid 5px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(70px, auto);
+    grid-template-areas: 
+    "header header header header "
+    " h3  h3  h3  h3 "
+    "header header header header"
+    "hgroup hgroup hgroup hgroup "
+    "section section section section "
+    "nav nav nav nav "
+    "article article article article "
+    "aside aside aside aside "
+
+    ;
+} */
+
+header>h1{
+    font-size: 50px;
+    background-color: black;
+    color: white;
+}
+
+.pargrap{
+
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    font-size: 30px;
+    margin-top: 50px;
+    background-image: url("img/pexels-jack-redgate-3069867.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    box-shadow: 12px -8px 5px 3px rgba(180, 178, 178, 0.75);
+
+}
+
+header{
+    text-align: center;
+    margin-top: 50px;
+    grid-area: header ;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+ 
+}
+
+hgroup{
+
+    grid-area: hgroup ;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 50px;
+    text-align: right;
+
+
+}
+
+
+section{
+
+    grid-area: section ;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 50px;
+    text-align: right;
+
+}
+
+nav{
+
+    grid-area: nav ;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 50px;
+    text-align: right;
+
+}
+
+article{
+
+    grid-area: article ;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 50px;
+    text-align: right;
+
+}
+
+aside{
+
+    grid-area:  aside;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 50px;
+    text-align: right;
+
+}
+
+h3{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}

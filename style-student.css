@@ -1,0 +1,115 @@
+body {
+  background-color: rgb(252, 252, 252);
+  font-family: "Bodoni Moda", serif;
+  font-family: "Tinos", serif;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, auto);
+  background-image: url("img/pexels-dikmie-kimie-1448471.jpg");
+  background-size: cover;
+  width: 98vw;
+  height: 140vh;
+  grid-column-gap: 60px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 30px;
+}
+
+header > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  margin-top: 80px;
+  padding: 20px;
+  
+}
+
+
+
+h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+img {
+  width: 380px;
+  height: 350px;
+  /* border: solid 2px white; */
+  padding: 15px;
+  margin-top: 25px;
+  border-radius: 200px 200px 200px 200px;
+  box-shadow: 14px -13px 5px -5px rgba(94, 255, 220, 0.75);
+}
+
+img:hover{
+    animation: photo 2s linear 1 alternate-reverse;
+
+}
+@keyframes photo{
+    0%{ transform: scale(1.1,1.1);}
+    25%{background-color: rgb(107, 255, 206); border-radius: 20px;}
+    100%{transform: scale(1,-1);}
+    
+}
+
+
+section {
+  margin-top: 100px;
+  display: grid;
+  grid-gap: 70px;
+  text-align: center;
+  grid-template-columns: repeat(3, 1fr);
+  color: rgb(0, 0, 0);
+}
+
+article {
+  margin-top: 80px;
+  display: grid;
+  grid-gap: 70px;
+  text-align: center;
+  grid-template-columns: repeat(3, 1fr);
+  color: rgb(0, 0, 0);
+}
+
+section > div {
+  box-shadow: 14px -13px 5px -5px rgba(100, 98, 98, 0.75);
+}
+
+section > div:hover {
+  box-shadow: 14px -13px 5px -5px rgba(124, 255, 255, 0.75);
+}
+
+article > div {
+  box-shadow: 14px -13px 5px -5px rgba(129, 129, 129, 0.75);
+}
+
+article > div:hover {
+  box-shadow: 14px -13px 5px -5px rgba(36, 255, 164, 0.75);
+}
+
+section > div > p:hover{
+    animation: pargrap 2s linear 1 alternate;
+}
+
+article > div > p:hover{
+    animation: pargrap 2s linear 1 alternate;
+}
+
+@keyframes pargrap{
+0%{
+    transform: scale(1.1,1.1);
+    color: rgb(23, 12, 180);
+}
+50%{
+    transform: scale(1.3,1.3);
+    color: mediumaquamarine;
+}
+100%{
+    color: rgba(0, 0, 0, 0.75);
+}
+}
