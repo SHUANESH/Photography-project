@@ -10,21 +10,21 @@ h1 , h2{
 
 }
 
-a{
+ .menu>a{
     color: white;
     text-decoration: none;
 }
 
 
 .menu{
-    text-align: center;
+text-align: center;
 margin-left: 180px;
 margin-bottom: 50px;
 display: grid;
-background-color: black;
+background-color: rgb(0, 0, 0);
 height: 30px;
-color: white;
 width: 75vw;
+font-size: 22px;
 grid-template-columns: repeat(6, 1fr);
 
 }
@@ -45,6 +45,26 @@ grid-template-columns: repeat(6, 1fr);
 .pargrap > p{
     margin-left: 100px;
     box-shadow: 10px -9px 5px -1px rgba(0,0,0,0.53);
+}
+
+#p3{
+    animation: popo 2s linear 1s alternate;
+}
+
+#p2{
+    animation: popo 2s linear 3s alternate;
+
+}
+
+#p1{
+    animation: popo 2s linear 5s alternate;
+
+}
+
+@keyframes popo{
+    0%{transform: scale(1,1);}
+    50%{transform: scale(1.4,1.4);}
+    100%{transform: scale(1.0,1.0);}
 }
 
  .box3{
@@ -72,19 +92,19 @@ grid-template-columns: repeat(6, 1fr);
 
 
 .box4{
-    /* border: black 3px solid; */
     margin-top: 100px;
     text-align: center;
     display: grid;
     font-size: 25px;
     grid-template-columns: repeat(3, 1fr);
-    /* box-shadow: 10px -9px 5px -1px rgba(0,0,0,0.53); */
+    
 }
 
 h4{
     margin-top: 150px;
     font-size: 50px;
     text-align: center;
+    animation: popo 2s linear 10s alternate;
 }
 
 .ph{ 
@@ -102,4 +122,20 @@ h4{
     border-radius: 40px;
     box-shadow: 10px -9px 5px -1px rgba(0,0,0,0.53);
    
+}
+
+
+.a-svg{
+     display: grid;
+     
+     grid-template-columns: repeat(4,1fr);
+     width: 25vw;
+     margin-left: 600px;
+     margin-top: 50px;
+     
+}
+
+a{
+    text-decoration: none;
+ color: rgb(0, 0, 0);
 }
