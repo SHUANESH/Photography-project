@@ -11,54 +11,6 @@ body{
     color: white;
 }
 
-/* @media screen and (max-width: 450){
-.continr{
-    display: grid;
-    grid-gap: 110px;
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: minmax(100px ,auto);
-    background-image: url("img/pexels-vitaly-vlasov-1655817.jpg");
-    grid-template-areas:
-    " 1 "
-    " 1 "
-    " 1 "
-    "2 "
-    "2 "
-    "2 "
-    "2 "
- 
-    
-    
-    ;
-}
-
-}
-
-@media screen and (min-width: 451px){
-    .continr{
-        display: grid;
-        grid-gap: 10px;
-        background-image: url("img/pexels-wouter-de-jong-571169.jpg");
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: minmax(50px ,auto);
-        grid-template-areas:
-        " 1 "
-        " 1  "
-        " 1 "
-        "2 "
-        "2 "
-        "2  "
-        "2 "
-        "3 "
-  
-        
-        
-        ;
-    }
-    
-
-} */
-
 header{
     grid-area: 1;
 
@@ -97,4 +49,23 @@ footer{
 a{
     text-decoration: none;
  color: rgb(255, 255, 255);
+}
+
+
+@media screen and (max-width: 1000px){
+    .children{
+        display: none;
+    }
+
+    footer{
+        display: grid;
+        padding: 50px;
+        display: block;
+
+    }
+
+    input{
+        margin-bottom: 30px;
+        
+    }
 }

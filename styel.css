@@ -139,3 +139,71 @@ a{
     text-decoration: none;
  color: rgb(0, 0, 0);
 }
+
+
+
+@media screen and (max-width: 1300px) {
+  .continr {
+    display: block;
+}
+.pargrap{
+    display: block;
+    animation: none !important;
+    box-shadow: none !important;
+}
+
+#p1 , #p2 , #p3{
+    animation: none !important;
+    border: solid 2px;
+}
+
+.box3{
+    display: block;
+}
+
+.box4{
+    display: block;
+}
+
+.box5{
+    display: block;
+}
+
+
+}
+
+@media screen and (max-width: 900px) {
+    .continr {
+      display: block;
+  }
+  .pargrap{
+      display: none;
+
+  }
+  
+  #p1 , #p2 , #p3{
+      animation: none !important;
+      border: solid 2px;
+  }
+  
+  .box3{
+      display: block;
+  }
+  
+  .box4{
+      display: block;
+  }
+  
+  .box5{
+      display: block;
+  }
+  
+  .menu{
+      margin-left: 40px;
+  }
+
+  .a-svg{
+      margin-left: 180px;
+  }
+  
+  }

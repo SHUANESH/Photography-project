@@ -167,6 +167,19 @@ h3{
     100%{transform: scale(1.1,1.1);}
 }
 
+.a-svg{
+    display: grid;
+    
+    grid-template-columns: repeat(4,1fr);
+    width: 25vw;
+    margin-left: 600px;
+    margin-top: 50px;
+    
+}
+a{
+    text-decoration: none;
+ color: rgb(0, 0, 0);
+}
 
 
 
