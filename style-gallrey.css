@@ -201,25 +201,34 @@ a{
  color: rgb(0, 0, 0);
 }
 
-@media screen and (max-width: 900px) {
+
+
+@media screen and (max-width:900px) {
 
     .menu{
         font-size: 16px;
-        margin-left:40px;
+        margin-left:100px;
         padding: 10px;
     }
 
-    h1{
-        font-size: 5px;
+    header>h1{
+        font-size: 25px;
         width: fit-content;
+        margin-left: 200px;
         animation: none !important;
     }
 
-    #p1,#p2 ,#p3{
-        display: block;
-        background-image: none;
-        animation: none !important;
+    .a-svg{
+        display: none;
     }
+
+
+
+#p1,#p2 ,#p3{
+    display: block;
+    animation: none !important;
+}
+
 
     hgroup{
         display: block;
@@ -240,26 +249,29 @@ a{
     aside{
         display: block;
     }
-
 }
+
 
 
 @media screen and (max-width: 600px) {
     .menu{
         font-size: 16px;
-        margin-left:40px;
+        margin-left:30px;
         padding: 10px;
     }
+
+    
 
     h1{
         font-size: 5px;
         width: fit-content;
+        margin-right: 50px;
         animation: none !important;
     }
 
     #p1,#p2 ,#p3{
         display: block;
-        background-image: none;
+        font-size: 20px;
         animation: none !important;
     }
 
@@ -281,6 +293,10 @@ a{
 
     aside{
         display: block;
+    }
+
+    .a-svg{
+       display: none;
     }
 }
 

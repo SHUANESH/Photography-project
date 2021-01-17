@@ -16,19 +16,19 @@ grid-auto-rows: minmax(70px, auto);
 grid-template-areas:
   "header header header header header"
   "header header header header header"
-  " hgroup hgroup hgroup hgroup article"
-  " hgroup hgroup hgroup hgroup article"
-  " hgroup hgroup hgroup hgroup article"
-  " hgroup hgroup hgroup hgroup article"
-  " hgroup hgroup hgroup hgroup article"
-  " hgroup hgroup hgroup hgroup article"
-  " hgroup hgroup hgroup hgroup article"
-  " hgroup hgroup hgroup hgroup article"
-  " hgroup hgroup hgroup hgroup article"
-  " hgroup hgroup hgroup hgroup article"
-  " hgroup hgroup hgroup hgroup article"
-  " hgroup hgroup hgroup hgroup article"
-  " hgroup hgroup hgroup hgroup article"
+  " hgroup hgroup hgroup hgroup hgroup"
+  " hgroup hgroup hgroup hgroup hgroup"
+  " hgroup hgroup hgroup hgroup hgroup"
+  " hgroup hgroup hgroup hgroup hgroup"
+  " hgroup hgroup hgroup hgroup hgroup"
+  " hgroup hgroup hgroup hgroup hgroup"
+  " hgroup hgroup hgroup hgroup hgroup"
+  " hgroup hgroup hgroup hgroup hgroup"
+  " hgroup hgroup hgroup hgroup hgroup"
+  " hgroup hgroup hgroup hgroup hgroup"
+  " hgroup hgroup hgroup hgroup hgroup"
+  " hgroup hgroup hgroup hgroup hgroup"
+  " hgroup hgroup hgroup hgroup hgroup"
   " footer footer footer footer footer ";
 }
 .box1 {
@@ -154,10 +154,19 @@ grid-template-columns: repeat(6, 1fr);
            height: 300px;
            margin: 0px;
        }
+       body{
+           text-align: center;
+       }
+
+       .continr{
+           width: fit-content;
+           margin: 0px;
+           grid-gap: none;
+       }
 
        header{
            font-size: 20px;
-           margin: 10px;
+           margin: 50px;
            width: fit-content;
        }
        h1{
@@ -172,7 +181,7 @@ grid-template-columns: repeat(6, 1fr);
            font-size: 12px;
            width: 70%;
            padding: 0px;
-           margin: 0px;
+           margin-left: 50px;
     
        }
 

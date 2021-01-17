@@ -32,6 +32,8 @@ grid-template-columns: repeat(6, 1fr);
 
 header{
     grid-area: 1;
+    margin-top: 5%;
+     margin-bottom: 5%;
 
 
 }
@@ -39,35 +41,44 @@ header{
 footer{
     grid-area: 2;
     display: grid;
-    grid-gap: 10px;
+    grid-column-gap:10%;
+    grid-row-gap: 70%;
+
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: minmax(100px ,auto);
+    grid-template-rows: minimax(100px ,auto);
 
 
+}
+
+input:focus{
+    background-color: yellow;
+}
+
+textarea:focus{
+    background-color: yellow;
 }
 
 
 
 .box1{
     grid-area: 3;
-    margin-top: 50px;
-    margin-left: 100px;
-    text-align: center;
+    margin-top: 10%;
+    margin-left: 0px;
+    
 }
 
 
 
 .children{
     margin-top: 180px;
-    padding: 10px;
     margin-left: 50px;
-    width: 130px;
-    height: 40px;
+    width: 4%;
+    height: 30px;
 
 }
 a{
     text-decoration: none;
- color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 }
 
 
