@@ -1,5 +1,24 @@
 
 
+ .menu>a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.menu{
+text-align: center;
+margin-left: 180px;
+margin-bottom: 50px;
+display: grid;
+background-color: rgb(0, 0, 0);
+height: 30px;
+width: 75vw;
+font-size: 22px;
+grid-template-columns: repeat(6, 1fr);
+
+}
+
 
 hgroup>div>img{
     width: 270px;
@@ -34,6 +53,7 @@ aside>div>img{
 
 
 }
+
 
 img{
 
@@ -181,6 +201,88 @@ a{
  color: rgb(0, 0, 0);
 }
 
+@media screen and (max-width: 900px) {
+
+    .menu{
+        font-size: 16px;
+        margin-left:40px;
+        padding: 10px;
+    }
+
+    h1{
+        font-size: 5px;
+        width: fit-content;
+        animation: none !important;
+    }
+
+    #p1,#p2 ,#p3{
+        display: block;
+        background-image: none;
+        animation: none !important;
+    }
+
+    hgroup{
+        display: block;
+    }
+
+    section{
+        display: block;
+    }
+
+    nav{
+        display: block;
+    }
+
+    article{
+        display: block;
+    }
+
+    aside{
+        display: block;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .menu{
+        font-size: 16px;
+        margin-left:40px;
+        padding: 10px;
+    }
+
+    h1{
+        font-size: 5px;
+        width: fit-content;
+        animation: none !important;
+    }
+
+    #p1,#p2 ,#p3{
+        display: block;
+        background-image: none;
+        animation: none !important;
+    }
+
+    hgroup{
+        display: block;
+    }
+
+    section{
+        display: block;
+    }
+
+    nav{
+        display: block;
+    }
+
+    article{
+        display: block;
+    }
+
+    aside{
+        display: block;
+    }
+}
 
 
 

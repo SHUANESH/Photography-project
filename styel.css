@@ -205,5 +205,30 @@ a{
   .a-svg{
       margin-left: 180px;
   }
+
   
+  }
+
+  @media screen and (max-width: 600px){
+    .menu{
+        margin-left: 40px;
+        font-size: 15px;
+    }
+
+    h1 ,h2{
+        font-size: 15px;
+    }
+    .photo1{
+       width: 355px;
+       height: 270px;
+
+ }
+ .box3{
+     width: fit-content;
+ }
+
+ h4{
+     font-size: 30px;
+     margin: 10px;
+ }
   }

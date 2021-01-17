@@ -4,6 +4,25 @@ body {
   font-family: "Tinos", serif;
 }
 
+.menu>a{
+  color: white;
+  text-decoration: none;
+}
+
+
+.menu{
+text-align: center;
+margin-left: 180px;
+margin-bottom: 50px;
+display: grid;
+background-color: rgb(0, 0, 0);
+height: 30px;
+width: 75vw;
+font-size: 22px;
+grid-template-columns: repeat(6, 1fr);
+
+}
+
 header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -159,5 +178,41 @@ color: rgb(0, 0, 0);
   header{
     display: none;
   }
+
+  .menu{
+    font-size: 16px;
+    margin-left:40px;
+    padding: 10px;
+}
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+  section , article{
+    display: block;
+  }
+  header{
+    display: none;
+  }
+
+  .menu{
+    font-size: 16px;
+    margin-left:40px;
+    padding: 10px;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}
+.a-svg{
+  display:none;
+}
+
+h1,h2{
+  font-size: 20px;
+}
 
 }
