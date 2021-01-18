@@ -87,6 +87,8 @@ a{
         display: none;
     }
 
+
+
     footer{
         display: grid;
         padding: 50px;
@@ -111,6 +113,8 @@ a{
     h1,h2,p{
         font-size: 12px;
     }
+
+   
 
     .menu{
         font-size: 10px;
